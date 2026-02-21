@@ -16,7 +16,7 @@ def train_model():
     print("Training model...")
 
     # Load dataset (must be in repo)
-    df = pd.read_csv("mit_dataset.csv")
+    df = pd.read_csv("mit_dataset3.csv")
 
     X = df[[
         "HR", "RR_mean", "RR_std", "Quality",
