@@ -4,7 +4,7 @@ import joblib
 
 app = Flask(__name__)
 
-model = joblib.load("cardioguard_rf_model.pkl","rb")
+model = joblib.load("cardioguard_rf_model.pkl")
 
 FEATURES = [
     "HR", "RR_mean", "RR_std", "Quality",
