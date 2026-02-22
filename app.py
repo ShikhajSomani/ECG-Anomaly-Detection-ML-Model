@@ -25,7 +25,7 @@ def train_model():
     y = df["Label"]
 
     model = RandomForestClassifier(
-        n_estimators=200,
+        n_estimators=100,
         random_state=42,
         n_jobs=-1
     )
