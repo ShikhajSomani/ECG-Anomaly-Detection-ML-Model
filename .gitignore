@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.model
+*.pth
+*.pt
